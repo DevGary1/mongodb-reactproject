@@ -4,7 +4,7 @@
     },
     "extensions": {
         "@aws.profile": "profile:default",
-        "@git.path": null,
+        "@git.path": "https://github.com/DevGary1/mongodb-reactproject.git",
         "@git.smartCommitChanges": "all",
         "@git.enableSmartCommit": true
     },
