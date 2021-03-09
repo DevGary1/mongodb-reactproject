@@ -4,9 +4,9 @@
     },
     "extensions": {
         "@aws.profile": "profile:default",
-        "@git.enableSmartCommit": true,
         "@git.path": "https://github.com/DevGary1/mongodb-reactproject",
-        "@git.smartCommitChanges": "all"
+        "@git.smartCommitChanges": "all",
+        "@git.enableSmartCommit": true
     },
     "instance": {
         "@automaticShutdown": "30"
@@ -34,7 +34,7 @@
     },
     "run": {
         "configs": {
-            "@inited": "true",
+            "@inited": true,
             "json()": {}
         }
     },
